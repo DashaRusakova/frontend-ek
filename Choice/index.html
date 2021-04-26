@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <h1>БД та СД</h1>
+    <p class="question"> Реляційна модель даних – це …</p>
+    <p><input type="radio" name="form" id="a1"> формалізований опис за допомогою математики й економетрики
+        і кількісне вираження економічних процесів і явищ, що абстрактно відображає реальну картину економічного життя.</p>
+    <p><input type="radio" name="form" id="a2"> модель даних, в якій текстова чи числова інформація,
+        що зображується за допомогою таблиць.</p>
+    <p><input type="radio" name="form" id="a3"> логічна модель даних, що є розширенням ієрархічного підходу, сувора математична теорія,
+        що описує структурний аспект, аспект цілісності і
+        аспект обробки даних в мережевих базах даних.</p>
+
+    <button class="answ_btn" id = "btn">Відповідь</button>
+    <p class="right hidden" id="right">Правильна відповідь</p>
+    <div class="wrong_div hidden" id="wrong_div">
+        <p class="wrong" id="wrong">Неправильна відповідь</p>
+        <button id = "btn1">Подивитися на правильну відповідь</button>
+    </div>
+
+    <p id="answer" class = "hidden">модель даних, в якій текстова чи числова інформація, що зображується за допомогою таблиць.</p>
+</div>
+<script src="js.js"></script>
+</body>
+</html>
